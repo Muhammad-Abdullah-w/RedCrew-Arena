@@ -1,0 +1,21 @@
+....................                                                     [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.5-final-0 ________________
+
+Name                                  Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------
+src/redcrew_arena/__init__.py             1      0   100%
+src/redcrew_arena/cli.py                 54     24    56%   26-30, 58-66, 70-79, 83
+src/redcrew_arena/crewai_runtime.py      44      6    86%   11-17, 30
+src/redcrew_arena/datasets.py            51      1    98%   31
+src/redcrew_arena/detector.py            19      0   100%
+src/redcrew_arena/evaluation.py          45      0   100%
+src/redcrew_arena/models.py              64      0   100%
+src/redcrew_arena/policy.py              38      1    97%   55
+src/redcrew_arena/reporting.py           53      0   100%
+src/redcrew_arena/sandbox.py             13      0   100%
+src/redcrew_arena/simulator.py           98      2    98%   44, 130
+-------------------------------------------------------------------
+TOTAL                                   480     34    93%
+Coverage JSON written to file results/coverage.json
+20 passed in 7.50s

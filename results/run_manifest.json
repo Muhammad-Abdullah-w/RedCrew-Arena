@@ -1,0 +1,22 @@
+{
+  "generated_at": "2025-03-25T15:06:20.765995+00:00",
+  "engine": "DeterministicAttackFollowingOracle-v1",
+  "profiles": [
+    "baseline",
+    "prompt_hardening",
+    "detector_abort",
+    "tool_policy",
+    "independent_reviewer",
+    "combined"
+  ],
+  "case_count": 2209,
+  "attack_case_count": 2180,
+  "clean_control_count": 29,
+  "run_count": 13254,
+  "dataset_fingerprint": "0a6fd87af4c7771a7e9480977b0a25a4bbe43f58dc6ee7842f129e19fcc63500",
+  "limitations": [
+    "Offline results evaluate deterministic control-plane defenses, not a live LLM.",
+    "The public InjecAgent adapter uses an exact task-tool allow-list, which structurally favors least-privilege defenses.",
+    "Live model results must be produced separately with pinned model identifiers and raw traces."
+  ]
+}
